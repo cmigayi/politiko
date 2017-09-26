@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_select_gender"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.example.cilo.politiko.ActivityUserActorCreation">
+
+    <include layout="@layout/toolbar" android:id="@+id/tool_bar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tool_bar"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:text="Actor's bio data:"
+        android:textColor="#000"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:text="Select your actor's gender:"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="#eeeeee"
+            android:id="@+id/gender"
+            android:layout_gravity="center">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:textColor="#000"
+                android:id="@+id/male"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:textColor="#000"
+                android:id="@+id/female"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I prefer none"
+                android:textColor="#000"
+                android:id="@+id/nogender"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:text="Enter your actor's age, btn 30 to 80, no letters allowed"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="2"
+            android:padding="5dp"
+            android:textColor="#000"
+            android:textSize="14sp"
+            android:id="@+id/age"
+            android:background="#f7f7f7"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#f33442"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:minHeight="0dp"
+            android:padding="7dp"
+            android:textAllCaps="false"
+            android:id="@+id/proceed_btn"
+            android:text="Proceed"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

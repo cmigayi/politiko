@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Politiko</string>
+    <string name="country_intro">Tanga is a country with a population of 2 million people. The country is populary known for it\'s large scale agricultural practice and mineral deposits such as diamond,coal and bauxite</string>
+    <string name="ethnic_demographic">Tanga has three clans: Akila, Buntu and Butole. The clan population size are as follows: The majority are Butole with (42\%%), Buntu being the minority with (25\%%), and finally Akila with (33\%%).</string>
+    <string name="to_play_this_game">The app will select for you a clan from the three (Akila, Butole and Buntu). Note that every decision you make as from this point onwards affects your popularity with the electorates and potential political affiliates, including attracting compaign funds.</string>
+    <string name="first_reporter_question">One of the newspapers have reported you as a potential and a suitable replacement of the incumbent president. A reporter from a local TV station asks you if that is true.</string>
+    <string name="actor_first_response_to_first_reporter">Say that it\'s true and bash the incumbant and previous regimes for failing Tanga.</string>
+    <string name="actor_second_response_to_first_reporter">Say that you are still consulting and the people of Tanga will know when you are you have made that decision.</string>
+    <string name="actor_thirt_response_to_first_reporter">Deny and say that is a wild allegation and you do not know such a thing!</string>
+    <string name="activation_message">We have sent an activation link to your email. Only proceed once you have activated your account.</string>
+</resources>
